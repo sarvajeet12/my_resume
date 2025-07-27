@@ -5,7 +5,10 @@ const SkillCards = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-white">
       {skills.map((item, index) => (
-        <div className="rounded-xl p-5 sm:p-10 bg-gray-800 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:border-t-3 hover:border-blue-400">
+        <div
+          key={index}
+          className="rounded-xl p-5 sm:p-10 bg-gray-800 transform transition-transform duration-300 ease-in-out hover:scale-105 hover:border-t-3 hover:border-blue-400"
+        >
           <h1 className="text-xl font-medium">{item.title}</h1>
           <div className="flex flex-wrap gap-5 sm:gap-10 mt-5">
             {item.tools.map((tech, index) => (

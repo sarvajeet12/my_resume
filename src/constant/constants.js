@@ -268,7 +268,7 @@ export const educationData = [
             "I completed my B.Tech in Computer Science and Engineering, gaining strong skills in data structures, algorithms, and software development. I worked on web projects, explored operating systems and AI, and developed a problem-solving mindset. This degree built my technical foundation to create scalable, real-world applications with a user-focused approach.",
     },
     {
-        id: 1,
+        id: 2,
         degree: "12th Grade (Intermediate/HSC)",
         institution: "Golden Bell Public School",
         field: "Science",
@@ -278,7 +278,7 @@ export const educationData = [
             "I completed my class 12 education from Golden Bell Public School, BiharSharif, Nalanda (Bihar) under the CBSE board, where I studied Physics, Chemistry, and Mathematics (PCM).",
     },
     {
-        id: 1,
+        id: 3,
         degree: "10th Grade (Matriculation/SSC)",
         institution: "Kendriya Vidyalaya",
         field: "All Subject",
