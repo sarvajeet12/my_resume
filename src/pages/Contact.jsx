@@ -1,7 +1,7 @@
 import React from "react";
 
 import Heading from "../components/common/Heading";
-import Connect from "../components/contact/connect";
+import Connect from "../components/contact/Connect";
 
 const Contact = () => {
   return (

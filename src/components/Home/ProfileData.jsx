@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 const Btn = ({ btnName, path }) => (
   <button
     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
-    onClick={() => window.open(path, '_blank')}
+    onClick={() => window.open(path, "_blank")}
   >
     {btnName}
   </button>
@@ -17,6 +17,8 @@ const phrases = [
   "MERN Stack Developer",
   "ReactJs Developer",
   "NodeJS Developer",
+  "Fresher",
+  "JavaScript Developer",
 ];
 
 // Animation speed and pause durations (in milliseconds)
@@ -27,7 +29,7 @@ const PAUSE_AFTER_DELETING = 500; // Pause duration after a phrase is fully dele
 
 const CustomTypeAnimator = () => {
   // State to hold the currently displayed part of the phrase being animated
-  const [displayedText, setDisplayedText] = useState('');
+  const [displayedText, setDisplayedText] = useState("");
   // State to track which phrase in the `phrases` array is currently active
   const [phraseIndex, setPhraseIndex] = useState(0);
   // State to track the current character index within the active phrase
@@ -83,7 +85,7 @@ const CustomTypeAnimator = () => {
           // Reset `charIndex` to 0 for the new phrase
           setCharIndex(0);
           // Clear `displayedText` to ensure the new phrase starts typing from an empty string
-          setDisplayedText('');
+          setDisplayedText("");
         }, PAUSE_AFTER_DELETING);
       }
     }
@@ -103,15 +105,18 @@ const CustomTypeAnimator = () => {
 
   return (
     <div className="text-white font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl">
-      I am a{' '}
+      I am a{" "}
       <span className="text-yellow-400">
         {displayedText}
-        <span className={`inline-block w-0.5 h-full bg-yellow-400 align-text-bottom ml-1 ${cursorVisible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-100`}></span>
+        <span
+          className={`inline-block w-0.5 h-full bg-yellow-400 align-text-bottom ml-1 ${
+            cursorVisible ? "opacity-100" : "opacity-0"
+          } transition-opacity duration-100`}
+        ></span>
       </span>
     </div>
   );
 };
-
 
 const ProfileData = () => {
   const info = `I have 2 years of experience as a full stack developer, primarily
