@@ -13,6 +13,7 @@ const Connect = () => {
     "Available for full-time roles!",
     "Excited for internships!",
     "Let's build something amazing!",
+    "Eager to learn new things."
   ];
 
   const [currentPhraseIndex, setCurrentPhraseIndex] = useState(0);

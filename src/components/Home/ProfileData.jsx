@@ -17,7 +17,6 @@ const phrases = [
   "MERN Stack Developer",
   "ReactJs Developer",
   "NodeJS Developer",
-  "Fresher",
   "JavaScript Developer",
 ];
 
@@ -119,21 +118,19 @@ const CustomTypeAnimator = () => {
 };
 
 const ProfileData = () => {
-  const info = `I have 2 years of experience as a full stack developer, primarily
-        working on personal and academic projects using the MERN stack. During
-        this time, I’ve built full-stack web applications like an EdTech
-        platform and a hospital management system, handling both frontend
-        (React.js) and backend (Node.js, Express) along with MongoDB for the
-        database. I’ve also used tools like JWT, Cloudinary, CORS, and
-        implemented REST APIs.`;
-
   return (
     <div className="text-center md:text-left w-full md:w-1/2 flex flex-col gap-y-2">
       {/* Custom Type Animation Component */}
       <CustomTypeAnimator />
 
-      <p className="text-base text-gray-200 mt-5 bg-slate-800 px-4 py-4 rounded-xl">
-        {info}
+      <p className="text-base text-gray-200 mt-5 bg-slate-800 px-4 py-4 rounded-xl text-left">
+        I have 2 years of experience as a full stack developer, primarily
+        working on <b>personal and academic projects</b> using the MERN stack.
+        During this time, I’ve built full-stack web applications like an EdTech
+        platform and a hospital management system, handling both frontend
+        (React.js) and backend (Node.js, Express) along with MongoDB for the
+        database. I’ve also used tools like JWT, Cloudinary, CORS, and
+        implemented REST APIs.
       </p>
       <a href="" className="mt-10">
         <Btn
