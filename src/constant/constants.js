@@ -11,10 +11,10 @@ import vite from "../assets/icons/vite_icon.png"
 
 
 // ------------------ Backend---------------------------
-import node from "../assets/icons/css_icon.png"
-import express from "../assets/icons/html_icon.png"
-import mongo from "../assets/icons/js_icon.png"
-import postman from "../assets/icons/redux_icon.png"
+import node from "../assets/icons/nodejs_icon.png"
+import express from "../assets/icons/express_icon.png"
+import mongo from "../assets/icons/mongodb_icon.png"
+import postman from "../assets/icons/postman_icon.png"
 
 
 // ------------------- Language -------------------------
