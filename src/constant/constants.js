@@ -122,22 +122,7 @@ import bevarc from "../assets/company_logo/bevarc_logo.png"
 import testunity from "../assets/company_logo/testunity_logo.jpeg"
 
 export const experiencesData = [
-    {
-        id: 1,
-        cmpyName: "Bevarc Construction Pvt. Ltd.",
-        cmpyLogo: bevarc,
-        role: "Software Developer Intern",
-        duration: "January 2025 - February 2025",
-        description: "I completed a one month internship at Bevarc Construction Pvt. Ltd. as a Software Developer Intern. I built and tested web applications using React.js, worked with teams to create user-friendly designs, and improved performance through regular updates. I followed modern coding practices to make the apps fast and easy to maintain.",
-        certificateLink: "https://drive.google.com/file/d/1pXJcaQwqGwihp0aUtttSPqgiACIgxYOx/view?usp=sharing",
-        certificateBtn: "View Certificate",
-        employmentType: "Internship",
-        workTime: "Full Time",
-        workMode: "Online",
-        location: "Patna, Bihar, India",
-        techStack: ["ReactJs", "TypeScript", "Shadcn", "Git", "GitHub", "Tailwind CSS"],
-        glowColor: "rgb(255, 165, 0)"
-    },
+
     {
         id: 1,
         cmpyName: "TestUnity",
@@ -153,7 +138,25 @@ export const experiencesData = [
         location: "Bengaluru, Karnataka, India",
         techStack: ["NextJs", "ReactJs", "TypeScript", "Nodejs", "MongoDB", "Git", "BitBucket", "Tailwind CSS"],
         glowColor: "rgb(255, 165, 0)"
+    },
+
+    {
+        id: 2,
+        cmpyName: "Bevarc Construction Pvt. Ltd.",
+        cmpyLogo: bevarc,
+        role: "Software Developer Intern",
+        duration: "January 2025 - February 2025",
+        description: "I completed a one month internship at Bevarc Construction Pvt. Ltd. as a Software Developer Intern. I built and tested web applications using React.js, worked with teams to create user-friendly designs, and improved performance through regular updates. I followed modern coding practices to make the apps fast and easy to maintain.",
+        certificateLink: "https://drive.google.com/file/d/1pXJcaQwqGwihp0aUtttSPqgiACIgxYOx/view?usp=sharing",
+        certificateBtn: "View Certificate",
+        employmentType: "Internship",
+        workTime: "Full Time",
+        workMode: "Online",
+        location: "Patna, Bihar, India",
+        techStack: ["ReactJs", "TypeScript", "Shadcn", "Git", "GitHub", "Tailwind CSS"],
+        glowColor: "rgb(255, 165, 0)"
     }
+
 ]
 
 
