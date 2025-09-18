@@ -4,6 +4,7 @@
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaSquareGithub } from "react-icons/fa6";
 import { IoMdContact } from "react-icons/io";
+import { motion, useScroll } from "motion/react";
 
 const Navbar = () => {
   // const [activeLink, setActiveLink] = useState("#home");
@@ -48,6 +49,9 @@ const Navbar = () => {
   //   },
   // ];
 
+  // Framer Motion
+  const scrollYProgress = useScroll().scrollYProgress;
+
   return (
     <nav className="fixed top-0 left-0 right-0 bg-#030712/90 backdrop-blur-sm z-50 border-b border-gray-900 shadow-sm ">
       <div className="max-w-7xl container mx-auto flex items-center justify-end px-4 sm:px-6 lg:px-8  md:h-20 h-16">
@@ -82,6 +86,13 @@ const Navbar = () => {
         </div> */}
 
         {/* LinkedIn and GitHub */}
+        {/* Framer Motion */}
+        <motion.div
+          className="bg-yellow-600 w-full h-1.5 fixed top-0 left-0 origin-left"
+          style={{
+            scaleX: scrollYProgress,
+          }}
+        ></motion.div>
 
         <div className="gap-10 flex">
           <a
