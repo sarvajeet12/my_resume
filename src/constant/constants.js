@@ -119,6 +119,7 @@ export const skills = [{
 
 // Logo
 import bevarc from "../assets/company_logo/bevarc_logo.png"
+import testunity from "../assets/company_logo/testunity_logo.jpeg"
 
 export const experiencesData = [
     {
@@ -132,9 +133,25 @@ export const experiencesData = [
         certificateBtn: "View Certificate",
         employmentType: "Internship",
         workTime: "Full Time",
-        workMode: "Onsite",
+        workMode: "Online",
         location: "Patna, Bihar, India",
-        techStack: ["ReactJs", "TypeScript", "Shadcn", "Git and GitHub", "Tailwind CSS"],
+        techStack: ["ReactJs", "TypeScript", "Shadcn", "Git", "GitHub", "Tailwind CSS"],
+        glowColor: "rgb(255, 165, 0)"
+    },
+    {
+        id: 1,
+        cmpyName: "TestUnity",
+        cmpyLogo: testunity,
+        role: "Software Developer Intern",
+        duration: "July 2025 - Present",
+        description: "I am currently working as a Full Stack Developer Intern at TestUnity, where I primarily work with the Next.js and TypeScript tech stack to build responsive and user-friendly web pages. My role involves developing features, fixing bugs across both frontend and backend, and working with AWS services like Amplify and EC2 for deployment and hosting. On the backend, I contribute using Node.js and manage databases with MongoDB, ensuring scalable and efficient application performance.",
+        certificateLink: "#",
+        certificateBtn: "View Certificate",
+        employmentType: "Internship",
+        workTime: "Full Time",
+        workMode: "On-site",
+        location: "Bengaluru, Karnataka, India",
+        techStack: ["NextJs", "ReactJs", "TypeScript", "Nodejs", "MongoDB", "Git", "BitBucket", "Tailwind CSS"],
         glowColor: "rgb(255, 165, 0)"
     }
 ]

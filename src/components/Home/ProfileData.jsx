@@ -14,6 +14,7 @@ const Btn = ({ btnName, path }) => (
 // Define the phrases to be animated
 const phrases = [
   "Full Stack Developer",
+  "Software Developer Intern",
   "MERN Stack Developer",
   "ReactJs Developer",
   "NodeJS Developer",
@@ -123,14 +124,8 @@ const ProfileData = () => {
       {/* Custom Type Animation Component */}
       <CustomTypeAnimator />
 
-      <p className="text-base text-gray-200 mt-5 bg-slate-800 px-4 py-4 rounded-xl text-left">
-        I have 2 years of experience as a full stack developer, primarily
-        working on <b>personal and academic projects</b> using the MERN stack.
-        During this time, I’ve built full-stack web applications like an EdTech
-        platform and a hospital management system, handling both frontend
-        (React.js) and backend (Node.js, Express) along with MongoDB for the
-        database. I’ve also used tools like JWT, Cloudinary, CORS, and
-        implemented REST APIs.
+      <p className="text-sm text-gray-200 font-medium mt-5 bg-slate-800 px-4 py-4 rounded-xl text-left">
+        I am currently working as a Software Developer Intern at TestUnity, where I contribute to building and enhancing web applications. Alongside my internship, I am actively learning Next.js and TypeScript to strengthen my skills in modern web development. I’m also working on creating full-stack projects using Next.js, focusing on both frontend and backend development, API integration, and scalable application design. My experience includes working with React.js, Node.js, Express, and MongoDB, as well as tools like JWT, Cloudinary, CORS, and implementing REST APIs.
       </p>
       <a href="" className="mt-10">
         <Btn

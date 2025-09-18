@@ -204,10 +204,14 @@ const ExperienceDetails = () => {
           </div>
         </div>
         <p className="text-slate-300">{experience.description}</p>
-        <Btn
-          path={experience.certificateLink}
-          btnName={experience.certificateBtn}
-        />
+        {experience.cmpyName === "TestUnity" ? (
+          <></>
+        ) : (
+          <Btn
+            path={experience.certificateLink}
+            btnName={experience.certificateBtn}
+          />
+        )}
       </div>
     );
   };
