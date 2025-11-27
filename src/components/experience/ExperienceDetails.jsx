@@ -205,7 +205,9 @@ const ExperienceDetails = () => {
         </div>
         <p className="text-slate-300">{experience.description}</p>
         {experience.cmpyName === "TestUnity" ? (
-          <></>
+          <Btn
+            btnName={experience.status}
+          />
         ) : (
           <Btn
             path={experience.certificateLink}
