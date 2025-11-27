@@ -136,7 +136,7 @@ export const experiencesData = [
         workTime: "Full Time",
         workMode: "On-site",
         location: "Bengaluru, Karnataka, India",
-        techStack: ["NextJs", "ReactJs", "TypeScript", "Nodejs", "MongoDB", "Git", "BitBucket", "Tailwind CSS"],
+        techStack: ["NextJs", "ReactJs", "TypeScript", "Nodejs", "MongoDB", "Git", "BitBucket", "Tailwind CSS", "GitHub", "AWS Amplify", "AWS EC2"],
         glowColor: "rgb(255, 165, 0)"
     },
 
